@@ -1,0 +1,617 @@
+/***********************
+member and legislation and congressional reports
+***********************/
+.featured.member {
+	background: #f1f1f1 url(/img/bg_member_overview.jpg) 50% 0 no-repeat;
+}
+.featured.legislation {
+	background: #f1f1f1 url(/img/bg_legislation_overview.jpg) 50% 0 no-repeat;
+}
+.featured.creports {
+	background: #f1f1f1;
+}
+.overview_wrapper .overview.landing {
+	border-color:#606;
+	padding:15px;
+	width:auto;
+	float:none;
+}
+.overview_wrapper .overview.landing-with-tertiary {
+	border-color:#606;
+	padding:15px;
+}
+.overview_wrapper.legislation .overview.landing {
+	padding:15px 0;
+}
+.overview_wrapper .overview.landing .member_column_01 h2,
+.overview_wrapper .overview.landing .member_column_02 h2,
+.overview_wrapper .overview.landing .member_column_03 h2,
+.overview_wrapper .overview.landing-with-tertiary h2 {
+	color:#606;
+	text-align:left;
+	margin:0 0 .5em;
+	padding:0;
+	background:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.125em;
+}
+.overview_wrapper .overview.landing .member_column_01 h2 small,
+.overview_wrapper .overview.landing .member_column_02 h2 small,
+.overview_wrapper .overview.landing .member_column_03 h2 small,
+.overview_wrapper .overview.landing-with-tertiary h2 small {
+	color:#666;
+	font-weight: normal;
+	font-size:1.125em;
+}
+.overview_toggle.full {
+	width:100%;
+	clear:both;
+}
+/* members and nomination */
+.member_column_01,
+.member_column_02,
+.member_column_03,
+.nomination_column_01,
+.nomination_column_02,
+.treaty_column_01,
+.treaty_column_02,
+.legislation_column_01,
+.legislation_column_02 {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	float:left;
+	padding: 0 15px;
+} 
+.nomination_column_01, 
+.legislation_column_01 {
+	width:65%;
+} 
+.nomination_column_02, 
+.legislation_column_02 {
+	width:35%;
+	border-left: 1px dotted #ccc;
+}
+.treaty_column_01 {
+	width:50%;
+}
+.treaty_column_02 {
+	width:50%;
+	border-left: 1px dotted #ccc;
+}
+.member_column_01 {
+	width:40%;
+}
+	.member_column_01 #houseMemberNavigator select,
+	.member_column_01 #senateMemberNavigator select {
+		max-width:80%;
+		min-width:80%;
+	}
+.member_column_02 {
+	width:30%;
+	border-left: 1px dotted #ccc;
+}
+.member_column_03 {
+	width:30%;
+	border-left: 1px dotted #ccc;
+}
+/* legislation */
+.legislation_main_left {
+	padding:0 10px 20px;
+	width: 68%;
+	float: left;
+	border-right: 1px solid #EEE;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-box-shadow: 15px 0 15px -15px #ccc;
+	-webkit-box-shadow: 15px 0 15px -15px #CCC;
+	box-shadow: 15px 0 15px -15px #CCC;
+}
+	.legislation_main_left h2.leg_head {
+		text-align:center;
+		margin: 0 20px 1.5em;
+		line-height:1.2em;
+		color:#900;
+		padding:0 30px;
+		background:transparent url(/img/line_heading.png) 0 50% repeat-x;
+	}
+	.legislation_main_left h2.leg_head span.in {
+		display: inline-block;
+		background-color: white;
+		padding: 0 12px;
+		border:none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow:none;
+	}
+	.legislation_main_left h2.leg_head span.sub {
+		color:#888;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:11px;
+		font-weight:normal;
+	}
+	.legislation_main_left h3 {
+		font-size:1.1em;
+		margin:0 0 8px;
+		color:#606;
+	}
+	.legislation_main_left h4 {
+		margin:0 0 8px;
+	}
+	.legislation_main_left .leg_col_wrapper {
+		margin-bottom:2em;
+	}
+	.legislation_main_left .leg_col_wrapper .col {
+		padding: 0 20px 0;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		box-sizing:border-box;
+		float:left;
+		width:50%;
+		border-right:1px solid #eee;
+	}
+	.legislation_main_left .leg_col_wrapper .col.last {
+		border-right:none;
+	}
+	.legislation_main_left .leg_col_wrapper .col .img_holder {
+		margin-bottom:8px;
+	}
+	.legislation_main_left .leg_col_wrapper .col img {
+		max-width: 100%;
+		height: auto;
+	}
+	/* status
+	.legislation_main_left .leg_col_wrapper .status {
+		background:#c8c8c8 url(/img/bg_home_house_stat.png) 0 50% no-repeat;
+		padding:16px 10px;
+		margin-bottom:8px;
+	}
+	.legislation_main_left .leg_col_wrapper .status h4 {
+		padding-left: 70px;
+		margin:0;
+	}
+	.legislation_main_left .leg_col_wrapper .status h4 span {
+		font-weight:normal;
+	}
+	.legislation_main_left .leg_col_wrapper .status.senate {
+		background-image: url(/img/bg_home_senate_stat.png);
+		background-color:#000;
+	}
+	.legislation_main_left .leg_col_wrapper .status.senate h4 {
+		color:#ccff33;
+	}
+	.legislation_main_left .leg_col_wrapper .status.senate h4 span {
+		color:#fff;
+	} */
+	/* status */
+	.legislation_main_left .leg_col_wrapper .status {
+		padding:16px 10px;
+		margin-bottom:8px;
+		background-color: #000;
+	}
+	.legislation_main_left .leg_col_wrapper .status h4 {
+		padding-left: 70px;
+		margin:0;
+		color:#ccc;
+	}
+	.legislation_main_left .leg_col_wrapper .status h4 span {
+		font-weight:normal;
+		color:#ccc;
+	}
+	h4.sessiondate {
+		font-weight:normal;
+	}
+	h4.sessiondate span.nextsessiondateheading {
+		font-weight:bold;
+	}
+		/* house */
+		.legislation_main_left .leg_col_wrapper .status.house {
+			background:#000 url(/img/bg_home_house_stat.png) 0 50% no-repeat;
+		}
+		/* senate */
+		.legislation_main_left .leg_col_wrapper .status.senate {
+			background:#000 url(/img/bg_home_senate_stat.png) 0 50% no-repeat;
+		}	
+	.legislation_main_left .leg_col_wrapper a.inSession,
+	.legislation_main_left .leg_col_wrapper a.outOfSession,
+	.legislation_main_left .leg_col_wrapper a.statusError {
+		text-decoration:none;
+		color:#ccc;
+	}
+	.legislation_main_left .leg_col_wrapper a.sub {
+		font-weight:normal;
+	}
+	.legislation_main_left .leg_col_wrapper a .status h4,
+	.legislation_main_left .leg_col_wrapper a .status h4 span {
+		color:#ccc;
+		text-decoration:none;
+	}
+	.legislation_main_left .leg_col_wrapper a.inSession:focus,
+	.legislation_main_left .leg_col_wrapper a.outOfSession:focus,
+	.legislation_main_left .leg_col_wrapper a.statusError:focus {
+		outline:2px solid #06c;
+	}
+
+		/* inSession */
+		.legislation_main_left .leg_col_wrapper a.inSession {
+			color:#cf3;
+		}
+		.legislation_main_left .leg_col_wrapper a.inSession.sub {
+			color:#fff;
+		}
+.legislation_main_right {
+	padding:20px 30px 20px;
+	width: 32%;
+	float: left;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+	.legislation_main_right h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:1.1em;
+		color:#606;
+		border-top:1px dotted #ccc;
+		margin:0 0 8px;
+		padding: 12px 0 0;
+	}
+	.legislation_main_right img {
+		max-width: 100%;
+		height: auto;
+	}
+
+/***********************
+legislative process
+***********************/
+.leg_process_wrapper {
+	background:#0f0d0a url(/img/bg_legprocess_overview.jpg) 0 0 no-repeat;
+	padding:20px 50px;
+}
+ul.leg_process,
+ul.leg_process li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+ul.leg_process li {
+	text-align:;
+	position:relative;
+	min-height:76px;
+	padding-left:65px;
+	padding-right:15px;
+	margin-bottom:30px;
+	
+	opacity:.8;
+	filter: alpha(opacity=80);
+}
+	ul.leg_process li.playall {
+		min-height: 10px;
+		margin-bottom:15px;
+		padding:0 !important;
+		text-align:center;
+	}
+	ul.leg_process li.playall a {
+		text-decoration:none;
+		color:#ffc;
+	}
+	ul.leg_process li.playall a:hover {
+		text-decoration:underline;
+	}
+	ul.leg_process li.process01 {
+		margin-left: auto;
+		margin-right: auto;
+		width:365px;
+		padding-top:15px;
+		min-height:61px;
+	}
+	ul.leg_process li.process02,
+	ul.leg_process li.process03,
+	ul.leg_process li.process04 {
+		width:148px;
+		float:left;
+	}
+	ul.leg_process li.process05 {
+		width:116px;
+		float:left;
+		clear:right;
+	}
+	ul.leg_process li.process06,
+	ul.leg_process li.process07,
+	ul.leg_process li.process08 {
+		width:148px;
+		float:left;
+	}
+	ul.leg_process li.process09 {
+		width:116px;
+		float:left;
+	}
+	
+ul.leg_process li a.lp_link {
+	font-size:22px;
+	line-height:1;
+	text-decoration:none;
+	color:#fffff8;
+}
+	ul.leg_process li.process01 a.lp_link{
+		color:#ffc;
+	}
+ul.leg_process li a.lp_link:hover {
+	text-decoration:underline;
+}
+	ul.leg_process li a.lp_link .lp_number {
+		font-size:13px;
+		float:left;
+		font-weight:bold;
+		padding: 2px 5px 2px 0;
+	}
+ul.leg_process li .lp_button {
+	background-color: #e1eeff;
+	width:56px;
+	height:56px;
+	display:block;
+	border-radius:28px;
+	position:absolute;
+	left:0;
+	top:0;
+	text-align:center;
+}
+	ul.leg_process li.process01 .lp_button {
+		background-color: #ffc;
+	}
+ul.leg_process li .lp_button .lp_button_time {
+	padding:10px 0 3px;
+	margin: 0 5px 3px;
+	display:block;
+	border-bottom:1px solid #ccc;
+}
+ul.leg_process li .lp_button .lp_button_play a {
+	color:#666;
+	letter-spacing:1px;
+	text-decoration:none;
+	font-size:11px;
+}
+ul.leg_process li .lp_button .lp_button_play a:hover {
+	text-decoration:underline;
+}
+
+.process_main_left {
+	padding:0 30px 20px;
+	border-right: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow:none;
+	/*margin-bottom: 0 !important;*/
+}
+.process_main_left.mediabox {
+	width: 63%;
+}
+.process_main_right {
+	padding:0 30px 20px 0;
+}
+.process_main_right.mediabox {
+	width: 37%;
+}
+.process_main_right h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	border-top: 1px solid #999;
+	padding-top: 20px;
+	margin-top:0;
+}
+.process_main_right {
+	max-width:100%;
+	height:auto;	
+}
+table.video_table {
+	width:100%;
+	border-collapse:collapse;
+	border-top:1px solid #333;
+	text-align:left;
+	margin-bottom:0 !important;
+}
+table.video_table th,
+table.video_table td {
+	vertical-align:top;
+	text-align:left;
+	padding: 12px 10px;
+}
+table.video_table th {
+	border-bottom:1px solid #333;
+}
+table.video_table th.icon {
+	background: transparent url(/img/sprite_congress.png) 1px -561px no-repeat;
+	width:13px;
+}
+table.video_table td {
+	border-top:1px dotted #ccc;
+}
+table.video_table td small.media_label {
+	display:inline-block;
+	margin-left:0px;
+	width:19px;
+	height:12px; /*17*/
+	background: transparent url(/img/sprite_congress.png) -3px -574px no-repeat;
+}
+table.video_table td.length {white-space:nowrap;} 
+table.video_table td small.media_label.audio {
+	background: transparent url(/img/sprite_congress.png) -3px -671px no-repeat;
+}
+table.video_table td small.media_label span{
+	position: absolute;
+	left: 0;
+	top: -5000px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+p.play-all {
+	text-align:right;
+}
+p.play-all a {font-weight:bold;}
+
+.process_main_right h2.video_head {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	line-height:1;
+	margin:0;
+	border-top:1px solid #000;
+	padding: 10px 0 10px 22px;
+	background: transparent url(/img/sprite_congress.png) -5px -565px no-repeat;
+}
+ol.video_list {
+	margin:0;
+	padding:0;
+	list-style-position:inside;
+}
+ol.video_list li {
+	margin-bottom:10px;
+	border-top:1px dotted #ddd;
+	padding-top: 10px;
+}
+ol.video_list li:first-child {
+	border-top:1px solid #000;
+}
+ol.video_list li.video_list_playall {
+	list-style:none;
+	text-align:right;
+}
+ol.video_list li.video_list_playall a {
+	font-weight:bold;
+}
+.leg_process_video_wrapper {
+	/*background:#061421 url(/img/bg_legprocess_detail_overview.jpg) 0 0 no-repeat;*/
+	background-color:#F1F1F1;
+	padding:20px 50px;
+	padding: 0 0 20px;
+}
+
+/***********************
+Mobile Support
+***********************/
+@media screen and (max-width: 980px) {
+	/*ul.leg_process li.process01,*/
+	ul.leg_process li.process02,
+	ul.leg_process li.process03,
+	ul.leg_process li.process04,
+	ul.leg_process li.process05,
+	ul.leg_process li.process06,
+	ul.leg_process li.process07,
+	ul.leg_process li.process08,
+	ul.leg_process li.process09 {
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+	ul.leg_process li a.lp_link {
+		font-size:20px;
+	}
+	ul.leg_process li a.lp_link .lp_number {
+		font-size:12px;
+	}
+	ul.leg_process li.process01 {
+		width: 330px;
+	}
+	ul.leg_process li.process02,
+	ul.leg_process li.process03,
+	ul.leg_process li.process04 {
+		width:27%;
+	}
+	ul.leg_process li.process05 {
+		width:19%;
+	}
+	ul.leg_process li.process09 {
+		width:19%;
+	}
+	ul.leg_process li.process06,
+	ul.leg_process li.process07,
+	ul.leg_process li.process08 {
+		width:27%;
+	}
+	.process_main_left.mediabox {
+		width: 68%;
+	}
+	.process_main_right.mediabox {
+		width: 32%;
+	}
+}
+@media screen and (max-width: 810px) {
+	.member_column_01 {
+		width:100%;
+		border-bottom:1px dotted #ccc;
+	}
+	.member_column_02 {
+		width:50%;
+		border-left: none;
+		margin-top:15px;
+	}
+	.member_column_03 {
+		width:50%;
+		border-left: 1px dotted #ccc;
+		margin-top:15px;
+	}
+	.legislation_main_left,
+	.legislation_main_right {
+		width: 100%;
+		float: none;
+	}
+	ul.leg_process li a.lp_link {
+		font-size:16px;
+	}
+	ul.leg_process li a.lp_link .lp_number {
+		font-size:11px;
+	}
+	ul.leg_process li.process01 {
+		width: 270px;
+	}
+	.process_main_right {
+		padding:0 30px 20px;
+	}
+	.process_main_left.mediabox {
+		width: 100%;
+	}
+	.process_main_right.mediabox {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 650px) {
+	.leg_process_wrapper {
+		display:none;
+	}
+	.treaty_column_01, .nomination_column_01, .legislation_column_01 {
+		width:100%;
+		border-bottom:1px dotted #ccc;
+		float:none;
+		padding:0;
+	}
+	.treaty_column_02, .nomination_column_02, .legislation_column_02 {
+		width:100%;
+		border:none;
+		float:none;
+		padding:1em 0 0;
+	}	
+}
+@media screen and (max-width: 480px) {
+	.overview_wrapper .overview.landing {
+		padding:15px 5px;
+	}
+	.legislation_main_left .leg_col_wrapper .col {
+		float:none;
+		width:100%;
+		border:none;
+	}
+	.process_main_left,
+	.process_main_right {
+		padding:0 15px 20px;
+	}
+}
+@media screen and (max-width: 320px) {
+	
+}
+
+/***********************
+Print styles
+***********************/
+@media print {
+
+}

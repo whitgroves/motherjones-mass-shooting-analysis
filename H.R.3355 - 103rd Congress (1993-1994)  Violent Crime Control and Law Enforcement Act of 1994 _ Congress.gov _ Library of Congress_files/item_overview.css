@@ -1,0 +1,529 @@
+/***********************
+overview
+***********************/
+/*.featured h1 {
+	width:80%;
+}*/
+.overview_wrapper {
+	padding-bottom:2px;
+}
+.overview_wrapper .overview {
+	background-color:#fff;
+	border:2px solid #889daa;
+	padding:15px 30px 20px 30px;
+	padding: 25px 30px 15px;
+	-webkit-box-shadow: 0px 0px 18px #999;
+	-moz-box-shadow: 0px 0px 18px #999;
+	box-shadow: 0px 0px 18px #999;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	width:80%;
+	float:left;
+	position:relative;
+}
+.overview_wrapper .overview h2 {
+	color:#900;
+	text-align:center;
+	margin:0 0 1em;
+	padding:0 30px;
+	background:transparent url(/img/line_heading.png) 0 50% repeat-x;
+}
+
+	.overview_wrapper .overview h2.tableless {
+		color:#333;
+		text-align:left;
+		margin:0 0 2px;
+		padding:0;
+		background:none;
+		font-size:1em;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.confirmed {
+		font-size:1.125em;
+		margin-top:.5em;
+	}
+	.overview_wrapper .overview .tableless-wrapper {
+		margin:.5em 0 .7em;
+		padding:0;
+		display:table;
+		table-layout: fixed;
+		width:100%;
+	}
+	.overview_wrapper .overview .tableless-wrapper .cell-th,
+	.overview_wrapper .overview .tableless-wrapper .cell-td {
+		display:table-cell;
+	    text-align:left;
+	    vertical-align: top;
+	    margin:0;
+		padding:0;
+	}
+	.overview_wrapper .overview .tableless-wrapper .cell-th {
+		width: 29%;
+	}
+	.overview_wrapper .overview .tableless-wrapper .cell-td {
+		padding-left: 5px;
+	}
+	@media screen and (max-width: 980px) {
+		.overview_wrapper .overview .tableless-wrapper .cell-th {
+			width: 35%;
+		}
+	}
+	@media screen and (max-width: 810px) {
+		.overview_wrapper .overview .tableless-wrapper .cell-th {
+			width: 42%;
+		}
+	}
+	@media screen and (max-width: 650px) {
+		.overview_wrapper .overview .tableless-wrapper .cell-th {
+			width: 55%;
+		}
+	}
+.overview_wrapper .overview span.in {
+	display:inline-block;
+	background-color:#fff;
+	padding: 0 12px;
+	border-left:1px solid #e0e5ea;
+	border-right:1px solid #e0e5ea;
+	box-shadow:inset 0px 0px 5px #e0e5ea;
+}
+.overview_wrapper .overview span.out {
+	display:block;
+	background-color:#fff;
+	padding: 8px 18px;
+}
+.overview_toggle {
+	width:80%;
+	text-align:center;
+	position:relative;
+	font-size:.9em;
+	clear:both;
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+.overview_toggle a,
+.overview_toggle a:visited,
+.overview_toggle a:active {
+	color:#fff;
+	border-radius: 8px;
+	padding:3px 34px 4px 25px;
+	text-decoration:none;
+	background: #889daa url(/img/sprite_congress.png) 100% -184px no-repeat;
+	-webkit-box-shadow: 0px 0px 7px #999;
+	-moz-box-shadow: 0px 0px 7px #999;
+	box-shadow: 0px 0px 7px #999;
+}
+.overview_toggle a:hover,
+.overview_toggle a:focus {
+	color:#fff;
+	text-decoration:underline;
+}
+.overview_toggle.off {
+	text-align:left;
+}
+.overview_toggle.off a,
+.overview_toggle.off a:visited,
+.overview_toggle.off a:active {
+	background-color: #fff;
+	border:2px solid #889daa;
+	color:#900;
+	border-radius: 10px;
+	font-size:1.125em;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 26px 5px 20px;
+	
+	/*-webkit-box-shadow: 0px 0px 7px #999;
+	-moz-box-shadow: 0px 0px 7px #999;
+	box-shadow: 0px 0px 7px #999;*/
+	
+	background-image: linear-gradient(top, white 0%, whiteSmoke 100%);
+	background-image: -o-linear-gradient(top, white 0%, whiteSmoke 100%);
+	background-image: -moz-linear-gradient(top, white 0%, whiteSmoke 100%);
+	background-image: -webkit-linear-gradient(top, white 0%, whiteSmoke 100%);
+	background-image: -ms-linear-gradient(top, white 0%, whiteSmoke 100%);
+	background-image: -webkit-gradient(
+	 linear,
+	 left top,
+	 left bottom,
+	 color-stop(0, #fff),
+	 color-stop(1, whiteSmoke)
+	 );
+	background: #fff url(/img/sprite_congress.png) 100% -214px no-repeat;
+}
+.overview_toggle.off a:hover,
+.overview_toggle.off a:focus {
+	/*border-color:#900;*/
+	text-decoration:underline;
+}
+.overview_toggle.off_overview {
+	text-align:left;
+}
+.overview_toggle a.off_overview {
+	border-radius:10px;
+	font-size:2em;
+}
+.overview_wrapper .overview .overview_item {
+	float:left;
+	width:25%;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	padding: 0 10px;
+}
+.overview ul.overview_list {
+	padding: 0;
+	list-style:none;
+	margin: 0 0 1.5em;
+}
+.overview ul.overview_list li {
+	padding: 0;
+	list-style:none;
+	margin: 0 0 10px;
+}
+.overview ul.overview_list li h3 {
+	display:inline;
+}
+.overview_wrapper .overview .overview_billprogress {
+}
+.overview_wrapper .overview .overview_billprogress h3 {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/**label**/
+.overview_wrapper.bill {
+	margin: -15px 0 15px;
+	z-index: 1;
+}
+.overview_label {
+	background-color: #98382A;
+	border-bottom: 3px solid #4A0D0C;
+	display: inline-block;
+	position:relative;
+	z-index: 2;
+	padding: 0 15px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+.overview_label.off {
+	margin: 0;
+}
+.overview_label i {
+	font-size: 8px;
+	font-style: normal;
+}
+.overview_label .label_text {
+	color: #fff;
+	display: inline-block;
+	margin:0;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.overview_label .toggle_button {
+	color: #fff;
+	font-size: 11px;
+	display: inline-block;
+	margin-left: 30px;
+	text-decoration:none;
+}
+.overview_label .toggle_button i {
+	display: inline-block;
+	margin-left: 3px;
+	overflow:hidden;
+	width: 9px;
+	height: 9px;
+	background: transparent url(/img/sprite_congress.png) 0 -1856px no-repeat;
+	margin-top: 1px;
+}
+.overview_label.off .toggle_button i {
+	width: 13px;
+	height: 7px;
+	background-position: 0 -1888px;
+	margin-top: 0;
+}
+/****/
+.overview_wrapper .tertiary {
+	float:right;
+	width:20%;
+	padding-left:30px;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.overview_wrapper .tertiary .tertiary_section {
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+}
+.overview_wrapper .tertiary .tertiary_section h3 {
+	color:#666;
+}
+.overview_wrapper .tertiary .tertiary_section h4,
+.overview_wrapper .tertiary .tertiary_section h5 {
+	font-size:1em;
+	font-weight:normal;
+	color:#000;
+}
+.overview_wrapper .tertiary .tertiary_section ul.plain li {
+	margin-bottom:6px;
+}
+table.standard01 {
+	text-align:left;
+}
+table.standard01 th,
+table.standard01 td {
+	padding: 5px 10px 5px 0;
+	text-align:left;
+	vertical-align:top;
+}
+table.standard01 th {
+	color:#000;
+}
+.overview_wrapper table.standard01 th {
+	white-space:nowrap;
+}
+table.lateral01 th,
+table.lateral01 td {
+	padding: 2px 20px 2px 0;
+}
+table.nomargin {
+	margin-bottom:0;
+}
+.member_picture {
+	float:left;
+	width:30%;
+	padding-top: 5px;
+}
+.member_picture img {
+	max-width: 100%;
+	height: auto;
+	display:block;
+	padding-bottom: 5px;
+}
+.member_picture #bioguide {
+	margin: 5px 0;
+}
+.member_profile {
+	float:left;
+	width:70%;
+	padding-left:20px;
+	padding-top: 5px;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.member_profile h4 {
+	color:#900;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+/* bill progress */
+.bill_progress {
+	padding:0;
+	margin: 5px 0 0;
+	list-style-position:inside;
+	list-style:none;
+	font-size:1em;
+	overflow:hidden;
+	display:block;
+}
+.bill_progress li {
+	float:left;
+	/*padding:6px 27px 0 13px;*/
+	padding:6px 18px 0 7px;
+	height:22px;
+	background:transparent url(/img/bg_stat2.png) 100% 0 no-repeat;
+	color:#999;
+}
+.bill_progress li.first {
+	border-left:1px solid #c5c5c5;
+	/*padding-left:17px;*/
+	padding-left:13px;
+}
+.bill_progress li.last {
+	border-right:1px solid #c5c5c5;
+	/*padding-right:17px;*/
+	padding-right:13px;
+	background-position: 0 0;
+}
+.bill_progress li.passed {
+	color:#000;
+}
+.bill_progress li.beforeselect {
+	background-position: 100% 50%;
+}
+.bill_progress li.selected {
+	background-position: 100% 100%;
+	color:#fff;
+	font-weight:bold;
+}
+.bill_progress li.last.selected {
+	background-position: 0 100%;
+}
+
+/***********************
+Amendment label and other labels
+***********************/
+.label_amendment {
+	position:absolute;
+	left:24px;
+	top:-10px;
+}
+.label_bill {
+	position:absolute;
+	left:24px;
+	top:-15px;
+	background: transparent url(/img/sprite_congress.png) 100% -1187px no-repeat;
+	padding-right:13px;
+}
+.label_bill h2.label_text {
+	background-color: #98382a !important;
+	color:#fff !important;
+	text-transform: uppercase !important;
+	border-bottom: 3px solid #4a0d0c !important;
+	height:25px !important;
+	line-height:26px !important;
+	padding: 0 18px !important;
+	font-weight:bold !important;
+	font-size: 12px !important;
+	font-family: Arial !important;
+	background-image: none !important;
+	margin:0 !important;
+
+}
+
+/***********************
+Dialog
+***********************/
+.ui-widget.congress_dialog {
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 1em !important;
+	-webkit-box-shadow: 0px 0px 18px #999;
+	-moz-box-shadow: 0px 0px 18px #999;
+	box-shadow: 0px 0px 18px #999;
+	max-width:500px;
+	width:90%;
+}
+.ui-corner-all.congress_dialog {
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+.congress_dialog .ui-widget-header {
+	border: none !important;
+	background-color: #fff !important;
+	color: #333 !important;
+	background-image:none !important;
+	font-size:1.25em !important;
+}
+.ui-dialog .ui-dialog-titlebar {
+	padding: 15px 15px .3em !important;
+}
+.ui-dialog.congress_dialog .ui-dialog-content {
+	padding: 0 15px .5em !important;
+}
+.ui-dialog.congress_dialog .ui-dialog-buttonpane {
+	border-width: 0 !important;
+	margin:0 !important;
+	padding: 5px !important;
+	border-top:1px dotted #ccc !important;
+	text-align:center !important;
+}
+.ui-dialog.congress_dialog .ui-dialog-buttonpane button {
+	float: none !important;
+	margin: 0 !important;
+	padding: 2px !important;
+	line-height: 1 !important;	
+	-webkit-box-shadow: 0px 0px 0px #999 !important;
+	-moz-box-shadow: 0px 0px 0px #999 !important;
+	box-shadow: 0px 0px 0px #999 !important;
+}
+.congress_dialog .ui-button-text-only .ui-button-text {
+	padding: 0 10px !important;
+}
+.ui-widget.congress_dialog a {
+	color:#36c;
+	text-decoration: underline;
+}
+.ui-widget.congress_dialog a:visited {
+	color: #551a8b;
+}
+.ui-widget.congress_dialog a:hover, a:focus, a:active {
+	color: #036;
+	text-decoration:none;
+	outline: 0;
+}
+.ui-widget.congress_dialog p.messages {line-height:1.75em;}
+
+
+/***********************
+Mobile Support
+***********************/
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 810px) {
+
+}
+@media screen and (max-width: 650px) {
+	.overview_wrapper .overview {
+		width:100%;
+		float:none;
+		
+	}
+	.overview_wrapper .tertiary {	
+		width:100%;
+		float:none;
+		padding:15px;
+	}
+	.overview_toggle {
+		width:100%;
+	}
+	.featured h1 {
+		width:100%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.overview_wrapper .overview {
+		padding-right:15px;
+		padding-left:15px;
+	}
+	.member_picture {
+		float:none;
+		width:40%;
+		margin: 0 auto 10px;
+		text-align:center;
+	}
+	.member_profile {
+		float:none;
+		width:100%;
+		padding-left:0;
+	}
+	.overview_wrapper table.standard01 th {
+		white-space:normal;
+	}
+	.overview_wrapper .overview h2 {
+		padding:0;
+	}
+	.label_bill h2.label_text {
+		padding: 0 18px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.member_picture {
+		width:50%;
+	}
+
+}
+
+/***********************
+Print styles
+***********************/
+@media print {
+	.bill_progress li.selected {
+		border-top:2px solid #000;
+	}
+}

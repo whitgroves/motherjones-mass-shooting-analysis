@@ -1,0 +1,69 @@
+/********************
+dcrumb
+********************/
+#search-lozenges,
+#dcrumb_nav {
+    padding: 8px 0px;
+    border-bottom: 1px solid #ddd;
+}
+#dcrumb_nav.within {
+    border-bottom: none;
+}
+#dcrumb_nav h2.quiet,
+#search-lozenges h2.quiet {
+	display: inline;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin-right: 5px;
+	font-size: 1em;
+	color:#333;
+	font-weight:normal;
+}
+#search-lozenges a.facet-lozenge,
+#dcrumb_nav a.facet-lozenge,
+#search-lozenges a.search-lozenge,
+#dcrumb_nav a.search-lozenge {
+    display:inline-block;
+    color: #555;
+    background-color: #fff;
+    text-decoration: none;
+    font-size:.9em;
+    border:1px solid #666;
+    padding: 2px 17px 2px 5px;
+    margin: 1px 2px 1px 0;
+	position:relative;
+}
+#search-lozenges a.search-lozenge,
+#dcrumb_nav a.search-lozenge {
+    background-color: #ebf5fe;
+}
+#dcrumb_nav a.facet-lozenge:hover,
+#dcrumb_nav a.facet-lozenge:focus,
+#search-lozenges a.facet-lozenge:hover,
+#search-lozenges a.facet-lozenge:focus,
+#dcrumb_nav a.search-lozenge:hover,
+#dcrumb_nav a.search-lozenge:focus,
+#search-lozenges a.search-lozenge:hover,
+#search-lozenges a.search-lozenge:focus {
+    border-color:#000;
+}
+#search-lozenges a.facet-lozenge span,
+#dcrumb_nav a.facet-lozenge span,
+#search-lozenges a.search-lozenge span,
+#dcrumb_nav a.search-lozenge span {
+    padding: 0;
+    display:inline-block;
+	width:7px;
+	height:7px;
+	position: absolute;
+	top: 5.5px;
+	right: 5px;
+}
+#search-lozenges a.facet-lozenge span img,
+#dcrumb_nav a.facet-lozenge span img,
+#search-lozenges a.search-lozenge span img,
+#dcrumb_nav a.search-lozenge span img {
+    padding: 0;
+	margin: 0;
+    display:block;
+}

@@ -1,0 +1,174 @@
+footer {
+	clear:both;
+	overflow:hidden;
+	font-size:11px;
+}
+footer h2 {
+	font-size:1.15em;
+	font-family:Arial, Helvetica, sans-serif;
+}
+footer ul {
+	margin: 0; 
+	padding: 0;
+	list-style:none;
+}
+footer .foot_logo {
+	text-align:center;
+	padding:22px 20px 20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #ddd;
+	-moz-box-shadow: 0 15px 15px -15px #ccc;
+	-webkit-box-shadow: 0 15px 15px -15px #ccc;
+	box-shadow: 0 15px 15px -15px #ccc;
+}
+footer .foot_logo h1 {
+	margin:0;
+	height:21px;
+}
+footer .foot_logo a.logo_congress {
+	display:inline-block;
+	margin-left:5px;
+	width:212px;
+	height:21px;
+	background: transparent url(/img/sprite_foot.png) 0 0 no-repeat;
+}
+footer .foot_tertiary a.logo_loc {
+	display:inline-block;
+	margin-left:5px;
+	width:134px;
+	height:17px;
+	background: transparent url(/img/sprite_foot.png) 0 -100px no-repeat;
+}
+footer .foot_tertiary a.logo_copyright {
+	display:inline-block;
+	margin-left:5px;
+	width:136px;
+	height:19px;
+	background: transparent url(/img/sprite_foot.png) 0 -200px no-repeat;
+}
+footer .foot_logo a.logo_congress:hover,
+footer .foot_logo a.logo_congress:focus {
+	background-position: 0 -50px;
+}
+footer .foot_tertiary a.logo_loc:hover,
+footer .foot_tertiary a.logo_loc:focus {
+	background-position: 0 -150px;
+}
+footer .foot_tertiary a.logo_copyright:hover,
+footer .foot_tertiary a.logo_copyright:focus {
+	background-position: 0 -250px;
+}
+footer .foot_logo a.logo_congress span,
+footer .foot_tertiary a.logo_loc span,
+footer .foot_tertiary a.logo_copyright span {
+	position: absolute;
+	left: 0;
+	top: -5000px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+footer .foot_group {
+	overflow:hidden;
+	clear:both;
+	padding: 0 10px;
+	margin-bottom:20px;
+	border-bottom:1px solid #ddd;
+	-moz-box-shadow: 0 15px 15px -15px #ccc;
+	-webkit-box-shadow: 0 15px 15px -15px #ccc;
+	box-shadow: 0 15px 15px -15px #ccc;
+}
+footer .foot_group div {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	padding: 0 20px;
+	margin: 0 0 20px 0;
+	width:20%;
+	float:left;
+	border-right:1px solid #ddd;
+}
+footer .foot_group div.last {
+	border-right:none;
+}
+footer a { 
+	color: #666;
+	text-decoration:underline; 
+}
+footer a:visited { 
+	color: #551a8b; 
+}
+footer a:hover, 
+footer a:focus, 
+footer a:active { 
+	color: #000; 
+	text-decoration:none; 
+	/*outline: 0;*/
+}
+footer .foot_group div ul li {
+	margin-bottom:7px;
+}
+footer .foot_tertiary {
+	clear:both;
+	padding:0 30px;
+	margin-bottom:20px;
+	text-align:right;
+}
+footer .foot_tertiary .foot_links {
+	padding: 0;
+	margin-bottom:30px;
+	float:left;
+}
+footer .foot_tertiary .foot_links li {
+	display:inline-block;
+	padding: 0 3px 0 7px;
+	border-left:1px solid #ccc;
+	line-height:1;
+}
+footer .foot_tertiary .foot_links li.first {
+	padding-left: 0;
+	border-left:none;
+}
+footer .foot_tertiary .foot_partners,
+footer .foot_tertiary .foot_partners li {
+	display:inline-block;
+	vertical-align:middle;
+}
+footer .foot_tertiary .foot_partners li {
+	margin-left:15px;
+}
+
+/***********************
+Mobile Support
+***********************/
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 650px) {
+	footer .foot_group div {
+		width:32%;
+		display:inline-block;
+		float:none;
+		border-right:none;
+		border-left:none;
+		vertical-align:top;
+	}	
+	footer .foot_tertiary .foot_partners {
+		display:none;
+	}
+}
+@media screen and (max-width: 480px) {
+	footer .foot_group div {
+		width:49%;
+	}
+	footer .foot_tertiary {
+		text-align:left;
+	}
+}
+
+/***********************
+Print styles
+***********************/
+@media print {
+	footer {display:none;}
+}

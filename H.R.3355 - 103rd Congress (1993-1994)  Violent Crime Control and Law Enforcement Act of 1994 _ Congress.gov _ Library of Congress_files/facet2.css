@@ -1,0 +1,303 @@
+.facet_col2 {
+	margin-bottom:1.5em;
+}
+.facet_col2 h1 {
+	font-size:1em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:#666;
+	margin-bottom:10px;
+}
+.facet_col2 h3 {
+	margin-bottom:0;
+}
+.facet_col2 h1 span {
+	display:inline;
+	padding:0 3px;
+}
+h1.topHeading {
+    font-weight:bold;
+    color:#333;
+}
+.facet_col2 .box {
+	background-color:#fff;
+	border:1px solid #ccc;
+	border-top:0;
+	border-bottom-color:#fff;
+	border-width:1px 0;
+	overflow:hidden;
+}
+.facet_col2 .box h1.topHeading,
+.facet_col2 .box h2 {
+	font-size:1em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#333;
+	padding:10px 25px 10px 5px;
+	border-top:2px solid #999;
+	margin-bottom:0;
+	position:relative;
+}
+.facet_col2 .box h1.topHeading .help,
+.facet_col2 .box h2 .help {
+	font-weight:normal;
+	border-left:1px solid #ccc;
+	padding-left:5px;
+	margin-left:2px;
+}
+.facet_col2 .box h3 {
+	color:#777;
+	margin: 10px 5px 0;
+}
+.facet_col2 .box .innerbox.off {
+	display:none;
+}
+.facet_col2 .box ul {
+	list-style:none;
+	margin:0 0 10px;
+	padding:0;
+}
+.facet_col2 .box ul.sub-committee {
+	margin:0;
+}
+.facet_col2 .box ul.sub-committee li {
+	padding-left:16px;
+}
+.facet_col2 .box ul.sub-items {
+    margin:0;
+}
+.facet_col2 .box ul.sub-items li {
+    padding-left:16px;
+}
+.facet_col2 .box li{
+    position:relative;
+    margin-bottom:0;
+    /*line-height:1.2;*/
+	line-height:1.1;
+    clear:both;
+	border-top:1px dotted #ddd;
+	padding: 2px 0;
+}
+.facet_col2 .box li.sub-committee{
+    margin-left:16px;
+}
+.facet_col2 .box li.sub-items {
+    margin-left:16px;
+}
+.facet_col2 .box li:first-child,
+.facet_col2 .box li.noBorder {
+    border:none;
+}
+.facet_col2 .box li.pad5 {
+    padding:5px;
+}
+.facet_col2 .box li input.checkboxInput {
+	position: absolute;
+	top:7px;
+	left:5px;
+	z-index: 99;
+}
+	.facet_col2 .box ul.sub-items li input.checkboxInput {
+	    left:21px;
+	}
+.facet_col2 .box li label.checkboxLabel a {
+	vertical-align: top;
+	padding-left: 23px;
+	display:block;
+	cursor:pointer;
+}
+.facet_col2 .box li.more{
+	text-align:right;
+}
+.facet_col2 .box li a {
+    text-decoration:none;
+    display:block;
+    position:relative;
+	padding: 5px 65px 5px 5px;
+}
+.facet_col2 .box li.more a {
+	background: transparent url(/img/sprite_congress.png) 100% -55px no-repeat;
+	padding-right: 13px;
+}
+.facet_col2 .box li.more a:hover,
+.facet_col2 .box li.more a:focus {
+	background-position:100% -87px;
+}
+.facet_col2 .box li a span.count {
+	text-align: right;
+	font-weight: normal;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-size: .9em;
+	color: #999;
+}
+.facet_col2 .box li a:hover,
+.facet_col2 .box li a:focus {
+    background-color:#36c;
+	border-radius:5px;
+}
+.facet_col2 .box li a:hover,
+.facet_col2 .box li a:focus,
+.facet_col2 .box li a:hover span,
+.facet_col2 .box li a:focus span {
+	color:#fff;
+}
+.facet_col2 .box h1.topHeading a.toggle_link,
+.facet_col2 .box h2 a.toggle_link {
+	position:absolute;
+	right:5px;
+	top:11px;
+	width:13px;
+	height:13px;
+	overflow:hidden;
+	text-indent:-1000em;
+	background: transparent url(/img/sprite_congress.png) 100% -32px no-repeat;
+}
+.facet_col2 .box h1.topHeading a.toggle_link:hover,
+.facet_col2 .box h1.topHeading a.toggle_link:focus,
+.facet_col2 .box h2 a.toggle_link:hover,
+.facet_col2 .box h2 a.toggle_link:focus {
+	/*outline:2px solid #c4d8ed;*/
+	outline:2px solid #06c;
+}
+.facet_col2 .box h1.topHeading a.toggle_link.off,
+.facet_col2 .box h2 a.toggle_link.off {
+	background-position: 100% 0;
+}
+.facet_col2 .box .innerbox.off {
+	display:none;
+}
+/* selected */
+.facet_col2 .box li.off a span {
+	background-color:#36c;
+	display:inline-block;
+	border-radius:2px;
+	height:11px;
+	margin-top:2px;
+	vertical-align:top;
+}
+.facet_col2 .box li.off a img {
+	vertical-align: top;
+	padding:2px;
+}
+.facet_col2 .box li.off a,
+.facet_col2 .box li.off a:visited {
+	display: inline-block;
+	color: #666;
+	padding-right: 5px;
+}
+.facet_col2 .box li.off a:hover,
+.facet_col2 .box li.off a:focus {
+	color:#000;
+	background-color: transparent;
+}
+.facet_col2 .box li.off a:hover span,
+.facet_col2 .box li.off a:focus span {
+	background-color: #333;
+}
+.facetbox-hiddenrow {
+    display: none;
+}
+
+/* radio buttons */
+.facet_col2 .box.radio {
+	border:1px solid #ccc;
+	padding: 10px 5px;
+	margin-bottom:10px;
+}
+.facet_col2 .box.radio ul {
+	margin:0;
+}
+.facet_col2 .box.radio li {
+	padding:0 0 3px;
+	border:0;
+}
+.facet_col2 .box.radio li.custom-radio a {
+	cursor:pointer;
+    display:block;
+    z-index:1;
+	padding-left:24px;
+	padding-right:50px;
+	position:relative;
+}
+.facet_col2 .box.radio li.custom-radio a i {
+    background: url(/img/sprite_congress.png) no-repeat scroll -6px -772px transparent;
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+}
+.facet_col2 .box.radio li.custom-radio a.checked i {
+    background-position:-6px -900px;
+}
+.facet_col2 .box.radio li.custom-radio a.unchecked i {
+    background-position:-6px -772px;
+}
+.facet_col2 .box.radio li.custom-radio a.unchecked:hover i {
+    background-position:-6px -836px;
+}
+.facet_col2 .box.radio li a, 
+.facet_col2 .box.radio li a:visited {
+	color: #333;
+}
+.facet_col2 .box.radio li a:hover, 
+.facet_col2 .box.radio li a:focus, 
+.facet_col2 .box.radio li a:hover span, 
+.facet_col2 .box.radio li a:focus span {
+	color: #000;
+	text-decoration:underline;
+	background-color:transparent;
+}
+
+/* radio buttons */
+.facet_col2 .box.checkbox li a, .facet_col2 .box li.checkbox a {
+	padding: 5px 65px 5px 22px;
+}
+.facet_col2 .box.checkbox li a span.custom-checkbox,
+.facet_col2 .box li.checkbox a span.custom-checkbox {
+	background: url(/img/sprite_congress.png) no-repeat scroll 0 -960px transparent;
+	position: absolute;
+	left: 4px;
+	top: 5px;
+	width:11px;
+	height:11px;
+	border:1px solid #fff;
+}
+.facet_col2 .box.checkbox li a span.custom-checkbox.checked,
+.facet_col2 .box li.checkbox a span.custom-checkbox.checked
+{
+	background-position:0 -992px;
+}
+.facet_col2 .box.checkbox li a:focus span.custom-checkbox,
+.facet_col2 .box.checkbox li a:hover span.custom-checkbox,
+.facet_col2 .box li.checkbox a:focus span.custom-checkbox,
+.facet_col2 .box li.checkbox a:hover span.custom-checkbox
+ {
+	border-color:#999;
+}
+/*.facet-col-search-tips {
+	float: right;
+}*/
+
+/***********************
+Mobile Support
+***********************/
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 650px) {
+
+}
+@media screen and (max-width: 480px) {
+
+}
+
+/***********************
+Print styles
+***********************/
+@media print {
+
+}

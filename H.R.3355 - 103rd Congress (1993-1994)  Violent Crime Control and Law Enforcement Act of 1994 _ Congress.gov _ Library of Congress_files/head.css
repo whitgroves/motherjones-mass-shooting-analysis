@@ -1,0 +1,596 @@
+.congressional-users-only.global-header {
+	border: 0;
+	margin: 0;
+	padding: 10px 0 10px 25px;
+	background-color: #f7f7f7;
+	font-size: 11px;
+}
+.congressional-users-only.global-header i {
+	top: 10px;
+    left: 5px;
+}
+.congressional-users-only.global-header span {
+	color: #900;
+}
+header {
+	background-color:#fcfcf4;
+	font-size:11px;
+	border-top:2px solid #900;
+}
+header a { 
+	text-decoration:none;
+	color: #245276;
+}
+header a:visited {
+	color: #245276;
+}
+header a:hover,
+header a:active { 
+	text-decoration:underline; 
+	outline: 0;
+}
+header a:focus { 
+	outline: thin dotted;
+}
+.header-wrapper {
+	position: relative;
+	padding: 0 0 0 250px;
+	/*overflow: hidden;*/
+}
+.header-logo {
+	overflow:hidden;
+	width: 200px;
+	position: absolute;
+	left: 30px;
+	top: 50%;
+	margin-top: -10px;
+}
+.header-logo-clone {
+	display: none;
+	position: absolute;
+	width: 220px;
+	top: 50%;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -110px;
+}
+@media screen and (max-width: 480px) {
+	.header-logo-clone {
+		width: 180px;
+		margin-top: -8px;
+		margin-left: 0;
+		left: 62px;
+	}
+}
+.header-logo a,
+.header-logo-clone a {
+	display: block;
+}
+.header-logo img,
+.header-logo-clone img {
+	max-width:100%;
+	height:auto;
+}
+.nav-top-half {
+	height: 41px;
+	border-left: 1px solid #eeefe1;
+	position: relative;
+}
+.nav-bottom-half {
+	height: 41px;
+	border-top: 1px solid #eeefe1;
+	border-left: 1px solid #eeefe1;
+}
+.nav-links-toggle-wrapper {
+	display: inline-block;
+}
+.nav-links-toggle {
+	border: none;
+	padding: 0 20px;
+	background: none;
+	height: 41px;
+	border-radius: 0;
+	text-shadow: none;
+	
+	display: none;
+}
+.nav-links-toggle:hover,
+.nav-links-toggle:focus {
+	background: none;
+}
+.nav-links-toggle:focus {
+	outline: thin dotted;
+}
+.nav-links-toggle.active {
+	background-color: #36c;
+	color: #fff;
+}
+.nav-links-toggle i.icon {
+	background-position: 0 -2275px;
+	width: 21px;
+	height: 18px;
+}
+.nav-links-toggle.active i.icon {
+	background-position: 0 -2293px;
+}
+.nav-links {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.nav-links > li {
+	display: inline-block;
+}
+.nav-links-main {
+	float: left;
+	padding-left: 14px;
+}
+	.nav-links-main li {
+		height: 41px;
+		line-height: 41px;
+		padding: 0 6px;
+		font-size: 13px;
+	}
+	.nav-account {
+		float: right;
+		height: 41px;
+		line-height: 41px;
+		padding-right: 30px;
+		color: #666;
+	}
+.nav-links-search {
+	float: left;
+}
+	.nav-links-search li {
+		height: 41px;
+		line-height: 41px;
+		font-size: 16px;
+		padding: 0 20px;
+		border-right: 1px solid #eeefe1;
+		text-align: center;
+		float: left;
+	}
+	.nav-links-search li.active {
+		background-color: #202a43;
+	}
+	.nav-links-search li.active a {
+		color: #fff;
+	}
+	.nav-links-search li i.icon{
+		background-position: 0 -2245px;
+		width: 15px;
+		height: 15px;
+		margin: 1px 0 0 3px;
+	}
+	.nav-links-search li.active i.icon{
+		background-position: 0 -2260px;
+	}
+	@media screen and (max-width: 380px) {
+		.nav-links-search li {
+			font-size: 14px;
+			padding: 0 20px;
+			border: none;
+		}
+	}
+.nav-links-tertiary {
+	float: right;
+	padding-right: 24px;
+}
+	.nav-links-tertiary > li {
+		height: 41px;
+		line-height: 41px;
+		padding: 0 6px;
+	}
+	.nav-links-tertiary > li a {
+		color: #666;
+	}
+	.tertiary-more {
+		display: none !important;
+		position: relative;
+	}
+	.tertiary-more.active {
+		color: #fff;
+		background-color: #36c;
+	}
+	.tertiary-more-toggle.active {
+		color: #fff;
+	}
+.nav-links-clone-wrapper {
+	display: none;
+	position: fixed;
+	z-index: 9000;
+}
+.more-tertiary-links {
+	display: none;
+	position: absolute;
+	z-index: 9000;
+	right: 0;
+	top: 100%;
+	
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.more-tertiary-links li {
+	height: auto;
+	line-height: normal;
+}
+.nav-links-clone li a,
+.more-tertiary-links li a {
+	padding: 10px 60px 10px 20px;
+	/*background-color: #202a43;*/
+	background-color: #36c;
+	display: block;
+	color: #fff;
+	font-size: 13px;
+	border-top: 1px solid #517dd4;
+}
+.more-tertiary-links li a {
+	font-size: 12px;
+}
+.nav-links-clone.nav-links-clone-main li a {
+	background-color: #36c;
+}
+.nav-links-clone.nav-links-clone-main li:first-child a {
+	border-top: none;
+}
+
+@media screen and (max-width: 980px) {
+	.nav-links-tertiary .tertiary {
+		display: none;
+	}
+	.tertiary-more {
+		display: inline-block !important;
+	}
+}
+@media screen and (max-width: 830px) {
+	.nav-links-toggle {
+		display: inline-block;
+	}
+	.nav-links-main,
+	.nav-links-tertiary li.tertiary {
+		display: none;
+	}
+	.nav-links-tertiary {
+		padding-left: 16px;
+		padding-right: 0;
+		float: left;
+	}
+	.tertiary-more {
+		display: none !important;
+	}
+	.nav-links-clone-wrapper {
+		display: none;
+	}
+}
+@media screen and (max-width: 710px) {
+	.header-wrapper {
+		padding: 0;
+	}
+	.header-logo {
+		display: none;
+	}
+	.header-logo-clone {
+		display: block;
+	}
+	.nav-top-half,
+	.nav-bottom-half {
+		border-left: none;
+	}
+	.nav-account {
+		padding-right: 20px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.nav-links-tertiary {
+		padding-left: 6px;
+		padding-right: 0;
+		width: 40px;
+	}
+	.nav-links-tertiary li {
+		line-height: normal;
+		height: auto;
+		padding-top: 8px;
+	}
+	.nav-links-search li {
+		padding-right: 10px;
+	}
+	.nav-links-search li.browse-link {
+		padding-right: 25px;
+	}
+}
+@media screen and (max-width: 360px) {
+	.nav-links-tertiary {
+		display:none;
+	}
+	
+}
+	.h_account {
+		text-align: right;
+	}
+	.h_account a,
+	.h_account a:visited {
+		color: #900;
+		font-weight: bold;
+		vertical-align: middle;
+	}
+	.h_account .username-wrapper {
+		width: 200px;
+		display: inline-block;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		line-height: normal;
+		vertical-align: middle;
+	}
+	@media screen and (max-width: 650px) {
+		.h_account .username-wrapper {
+			width: 90px;
+		}
+		.accounts-disabled-text-extra {
+			display: none;
+		}
+	}
+	@media screen and (max-width: 480px) {
+		.h_account .username-wrapper {
+			width: 50px;
+		}
+	}
+	.account {
+		border: 3px solid #b1c7d5;
+	}
+	.account .account-top {
+		padding: 15px 25px 5px;
+	}
+		.account .account-top ul {
+			padding:0;
+			margin:0;
+			list-style:none;
+		}
+		.account .account-top li {
+			padding:0;
+			margin:0 0 10px;
+			list-style:none;
+		}
+	.account .account-bottom {
+		padding: 15px 25px;
+		background-color: #ddd;
+		text-align:right;
+		overflow:hidden;
+	}
+	.sign-in-box-wrapper,
+	.signed-in-box-wrapper {
+		border:none !important;
+		padding:3px 0 0 !important;
+		background-color:transparent !important;
+	}
+	.sign-in-box-wrapper .ui-dialog-titlebar,
+	.sign-in-box-wrapper .ui-dialog-title,
+	.signed-in-box-wrapper .ui-dialog-titlebar,
+	.signed-in-box-wrapper .ui-dialog-title {
+		display: none !important;
+	}
+	.sign-in-box,
+	.signed-in-box {
+		padding: 0 !important;
+		position:relative;
+		display:none;
+		background-color:#fff !important;
+	}
+	.sign-in-box .login,
+	.signed-in-box .login {
+		margin:0 !important;
+	}
+	.sign-in-link i,
+	.signed-in-link i {
+		background: transparent url(/img/sprite_congress.png) 100% -1632px no-repeat;
+		width:7px;
+		height:4px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.sign-in-close-link,
+	.signed-in-close-link {
+		position:absolute;
+		right:10px;
+		top:10px;
+		background: transparent url(/img/sprite_congress.png) 100% -1600px no-repeat;
+		width:9px;
+		height:9px;
+		display:block;
+	}
+	.sign-in-close-link span,
+	.signed-in-close-link span {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+	}
+	.sign-in-box-wrapper {
+		width: 320px;
+	}
+	@media screen and (max-width: 650px) {
+		.sign-in-box-wrapper,
+		.signed-in-box-wrapper {
+			width:80% !important;
+			left:50% !important;
+			margin-left:-40% !important;
+		}
+		.sign-in-box,
+		.signed-in-box {
+			box-shadow: 0 0 20px #999;
+		}
+	}
+	@media screen and (max-width: 480px) {
+		.sign-in-box-wrapper,
+		.signed-in-box-wrapper {
+			width:96% !important;
+			left:50% !important;
+			margin-left:-48% !important;
+		}
+	}
+
+/***********************
+Search
+***********************/
+header #search_main {
+	clear:both;
+}
+header #search_main form {
+	margin-bottom:0;
+	background-color:#a6adbd;
+	padding: 15px 30px;
+} 
+header #search_main .search_label,
+header#home #search_main .search_label {
+	display:none;
+}
+header #search_main .search_wrapper {
+	margin:0;
+}
+	header #search_main .search_wrapper .search_formats,
+	header #search_main .search_wrapper .search_input,
+	header #search_main .search_wrapper .search_button {
+		float:left;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		box-sizing:border-box;
+		background-color:#fff;
+	}
+	header #search_main .search_wrapper .search_formats{	
+		border: 2px solid #517da4;
+		width: 26%;
+		padding:  0 8px 0 5px;
+		margin-right:1%;		
+		height: 40px;
+	}
+		header #search_main .search_wrapper .search_formats select {
+			border: none;
+			width: 100%;
+			margin-top:9px;
+			color: #1e476c;
+		}
+		/* webkit only */
+		@media screen and (-webkit-min-device-pixel-ratio:0) {
+			header #search_main .search_wrapper .search_formats select {
+				-webkit-appearance:none;
+				padding-right:15px;
+				background: transparent url(/img/sprite_congress.png) 100% -250px no-repeat;	
+			}
+		}
+	header #search_main .search_wrapper .search_input {
+		border: 3px solid #202a43;
+		border-right: none;
+		width:66%;
+		height: 40px;
+		padding-right:112px;
+	}
+	header #search_main .search_wrapper .search_input.noSearchWithin {
+		padding-right:0;
+	}
+		header #search_main .search_wrapper .search_input input#search {
+			width:100%;
+			background-color: transparent;
+			border: none;
+			-webkit-appearance: textfield;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 12px;
+			border-radius: 0;
+			-moz-border-radius: 0;
+			-webkit-border-radius: 0;
+			margin: 0;
+			padding: 0 5px;
+			height:34px;
+			float:left;
+			line-height: 34px;
+			-moz-box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+			box-sizing:border-box;
+		}
+		/* webkit only */
+		@media screen and (-webkit-min-device-pixel-ratio:0) {
+			header #search_main .search_wrapper .search_input input#search {
+				line-height: normal;	
+			}
+		}
+		header #search_main .search_wrapper .search_button {
+			width:7%;
+		}
+		header #search_main .search_wrapper .search_button button {
+			width:100%;
+			font-weight: bold;
+			font-size:13px;
+			color: #fff;
+			border: none;
+			border-radius: 0 !important;
+			overflow: visible;
+			cursor: pointer;
+			text-shadow:none;
+			height:40px;
+			/*background: #202a43 url(/img/sprite_congress.png) 50% -1203px no-repeat;*/
+			background: none;
+			background-color: #202a43;
+		}
+		header #search_main .search_wrapper .search_button button:hover,
+		header #search_main .search_wrapper .search_button button:focus {
+			color:#fff;
+			background-color:#04142e;
+		}
+		header #search_main .search_wrapper .search_button button:active {
+			color:#fff;
+			background-color: #04142e;
+		}
+@media screen and (max-width: 650px) {
+	header #search_main form {
+		padding: 0;
+	}
+	header #search_main .search_wrapper .search_formats {
+		width: 34%;
+		margin-right:0;
+		border: 3px solid #202a43;
+		border-right: none;
+	}
+	header #search_main .search_wrapper .search_input {
+		width: 57%;
+		border-left: none;
+	}
+	header #search_main .search_wrapper .search_button {
+		width:9%;
+	}
+}
+/* home search within */
+header#home #search-within-results-container {
+	display:none;
+}
+/*search within*/
+header #search-within-results-container {
+    position: relative;
+	float: right;
+	top: -34px;
+	left: 112px;
+    background-color: #e2e3e3;
+	width:112px;
+	height:34px;
+	line-height: 34px;
+	padding: 0;
+	text-align:center;
+	color:#1e476c;
+}
+header #search-within-results-container input#search-within-results {
+	margin:0;
+	padding:0;
+	vertical-align: middle;
+}
+
+/***********************
+Print styles
+***********************/
+@media print {
+	.congressional-users-only.global-header,
+	.nav-bottom-half,
+	header #search_main {
+		display: none;
+	}
+}

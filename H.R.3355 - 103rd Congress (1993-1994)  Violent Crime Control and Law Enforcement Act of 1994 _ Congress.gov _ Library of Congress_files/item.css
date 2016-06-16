@@ -1,0 +1,100 @@
+/***********************
+Committees
+***********************/
+table.table_committee {
+	width:100%;
+	/*vertical-align:top;
+	border-color:#ddd;*/
+	border-collapse:collapse;
+	border-top:1px solid #333;
+	text-align:left;
+}
+table.table_committee th, 
+table.table_committee td {
+	vertical-align:top;
+	text-align:left;
+	padding:6px 10px;
+}
+table.table_committee thead th {
+	/*border-bottom:1px solid #333;*/
+	padding: 8px 10px;
+	background-color:#f5f5f5;
+}
+table.table_committee tr.committee th,
+table.table_committee tr.committee td {
+	border-top:1px dotted #ccc;
+}
+table.table_committee tr.subcommittee th,
+table.table_committee tr.subcommittee td,
+table.table_committee tr.subcommittee_sub td {
+	color:#666;
+}
+table.table_committee tr.subcommittee th {
+	font-weight:normal;
+	padding-left:2em;
+}
+
+/***********************
+Related bills page
+***********************/
+table.relatedBills th.relatedBill {width:13%;}
+table.relatedBills th.relatedTitle {width:29%;}
+table.relatedBills th.relatedRelation {width:16%;}
+table.relatedBills th.relatedIdentified {width:11%;}
+table.relatedBills th.relatedAction {width:29%;}
+
+
+/***********************
+amendment detail page
+***********************/
+table.amend_table {
+	width:100%;
+	border-collapse:collapse;
+	text-align:left;
+}
+table.amend_table th,
+table.amend_table td {
+	vertical-align:top;
+	text-align:left;
+	padding:5px 0;
+}
+table.amend_table th {
+	padding-right: 20px;
+	white-space:nowrap;
+}
+table.amend_table td {
+}
+/***********************
+nominations detail page
+***********************/
+table.nominations tbody tr td {
+    border: none;
+    padding: 2px 10px;
+}
+
+/***********************
+Mobile Support
+***********************/
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 810px) {
+
+}
+@media screen and (max-width: 650px) {
+
+}
+@media screen and (max-width: 480px) {
+	/*table.item_table th.date,
+	table.item_table td.date {
+		white-space: normal;
+	}*/
+
+}
+
+/***********************
+Print styles
+***********************/
+@media print {
+
+}

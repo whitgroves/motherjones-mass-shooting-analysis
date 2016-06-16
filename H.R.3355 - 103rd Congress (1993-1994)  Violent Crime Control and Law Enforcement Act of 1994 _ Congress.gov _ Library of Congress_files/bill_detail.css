@@ -1,0 +1,149 @@
+.missing td{
+    padding:0 0 0 40px;
+}
+
+.missing{
+    margin:0 0 0 40px;
+}
+
+#titles_main h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.125em;
+}
+#titles_main h5 {
+	font-size:1em;
+	font-weight:normal;
+}
+#titles_main .titles {
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 1.25em;
+}
+#titles_main .header{
+    padding:5px 0;
+    font-size:1.125em;
+    font-weight:normal;
+    margin: 5px 0 1em;
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+}
+#titles_main .house,
+#titles_main .senate {
+	float:left;
+	width:50%;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	padding-right:20px;
+}
+
+#main .help_text{
+    float:right;
+    width:170px;
+    padding:5px;
+    border:2px solid #000;
+}
+/*subjects styles*/
+#subjects_main{
+    margin:0 0 0 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:.95em;
+}
+
+#subjects_main .primary{
+    float:left;  
+    border:1px solid #ccc;
+    margin:0 10px 10px 0;
+    width:35%;
+    height:100px;
+}
+
+#subjects_main .desc{
+    float:left;  
+    width:52%;
+    padding:0 110px 0 0;
+    margin:0 0 10px 0;
+    height:100px;
+    border:1px solid transparent;
+}
+
+ #subjects_main .paginator{
+    text-align:center;
+    background-color:#bbb;
+    padding-top:3px;
+    height:25px;
+}
+
+#subjects_main .back{
+    margin:-18px 0 0 0;
+    padding:0 0 0 5px;
+    background-color:lightgray;
+    padding-top:5px;
+    height:25px;
+}
+
+#subjects_main .pagination .prev_off, #subjects_main .pagination .next_off{
+    text-decoration:none;
+    color:#ddd;
+    background-color:transparent;
+}
+
+#subjects_main .column{
+    float:left;
+    padding:0 100px 0 10px;
+    border-right:1px solid #ccc;
+}
+
+#subjects_main .about{
+    height:20px;
+}
+
+#subjects_main .subjects{
+    margin:5px 0 5px 0;
+}
+
+#subjects_main .placeholder{
+    height:5px;
+}
+
+.wrapper_std .glossary{
+    font-size:.6em;
+    font-weight:normal;
+    font-family:Arial;
+}
+
+/***********************
+Mobile Support
+***********************/
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 810px) {
+
+}
+@media screen and (max-width: 650px) {
+	#titles_main .house,
+	#titles_main .senate {
+		float:none;
+		width:100%;
+		padding-right:0;
+	}
+}
+@media screen and (max-width: 480px) {
+
+}
+
+/***********************
+Print styles
+***********************/
+@media print {
+
+}
+
+/** bill text top scrollbar **/
+#billTextContainerTopScrollBar {
+    height: 0px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#billTextContainer {
+    overflow-x: auto;
+}

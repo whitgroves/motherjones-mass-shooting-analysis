@@ -2,6 +2,10 @@ motherjones.com mass shooting analysis
 
 ======================================
 
+Data Sources
+
+------------
+
 Data & Analysis on mass shootings in the United States.
 
 When adding new datafiles, include:
@@ -23,4 +27,25 @@ Info: A local copy of the government's webpage for the Violent Crime Control and
 
 Filename: us_counties_2010.json
 Source: 
-Info: A shapefile of US counties
+Info: A shapefile of US counties.
+
+Filename: us_states_2010.json
+Source:
+Info: A shapefile of US states.
+
+Filename: state_long_gun_laws.csv
+Source: compiled from https://en.wikipedia.org/wiki/Gun_laws_in_the_United_States_by_state by Olivia Cheng.
+Info: Details about long gun laws in the US.
+
+Filename: state_handgun_laws.csv
+Source: compiled from https://en.wikipedia.org/wiki/Gun_laws_in_the_United_States_by_state by Olivia Cheng.
+Info: Details about handgun laws in the US.
+
+
+Libraries Used
+
+--------------
+
+
+Pandas (and by extension, Numpy)
+Folium
